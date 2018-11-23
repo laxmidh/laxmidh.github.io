@@ -1,0 +1,30 @@
+main {
+    background-color: white;
+    min-width: 20em; 
+    height: 411px;
+}
+table{
+    color: green;
+    border-collapse: collapse;
+}
+ol {
+    color: blue;  
+}
+
+#Fimage{
+    position: absolute;
+        width: 90px;
+        height: 154px;
+        left: -150px;
+        top: 465px;
+        background-image: url("..//Bilder/Fimage.png");
+        background-position-x: 6px;
+        animation: sneak 8s infinite linear,
+            run 0.5s infinite steps(6);
+}
+@keyframes sneak {
+    100% {left: 110%; }
+}
+@keyframes run{
+    100% { background-position-x: calc(8px + 98px * 6);}
+}

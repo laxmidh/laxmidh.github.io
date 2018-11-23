@@ -1,0 +1,37 @@
+main {
+    background-color: white;
+    min-width: 20em; 
+    height: 411px;
+}
+table{
+    color: green;
+    border-collapse: collapse;
+}
+#hovedkort{
+    background-image: url("..//Bilder/hovedkort.png");
+    position: relative;
+    width: 210px;
+    height: 327px;
+    background-size: contain;
+}
+#cpu{
+    background-image: url("..//Bilder/cpu.png");
+    position: relative;
+    width: 400px;
+    height: 327px;
+    background-size: contain;
+}
+#skjermkort{
+    background-image: url("..//Bilder/skjermkort.png");
+    position: relative;
+    width: 436px;
+    height: 327px;
+    background-size: contain;
+}
+#Nettverkskort{
+    background-image: url("..//Bilder/nettverkskort.png");
+    position: relative;
+    width: 436px;
+    height: 315px;
+    background-size: contain;
+}
