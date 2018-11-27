@@ -1,7 +1,7 @@
 main {
     background-color: white;
     min-width: 20em; 
-    height: 411px;
+    height: 439px;
 }
 table{
     color: green;
@@ -16,7 +16,7 @@ ol {
         width: 90px;
         height: 154px;
         left: -150px;
-        top: 473px;
+        top: 490px;
         background-image: url("..//Bilder/Fimage.png");
         background-position-x: 6px;
         animation: sneak 8s infinite linear,
